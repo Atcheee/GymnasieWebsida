@@ -1,0 +1,86 @@
+/* Shop */
+
+.small-container {
+  margin: auto;
+}
+
+.titel {
+  text-align: center;
+  margin: auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.titel::after {
+  content: '';
+  background: red;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 203px;
+  margin-bottom: 50px;
+  left: 7.5%;
+  transition: transform 0.5s;
+
+}
+
+.col-4 img {
+  width: 40%;
+}
+
+.col-4 p{
+  font-size: 14px;
+}
+
+.special {
+  background: redial-gradient(#fff, #ffd6d6);
+  padding: 30px;
+}
+
+.col-4:hover {
+  transform: translateY(-10px)
+}
+
+@media screen and (max-width: 1000px) {
+  .shox-img {
+    display: none;
+  }
+  .col-3 p {
+    display: none;
+  }
+  .col-3 h1 {
+    display: none;
+  }
+  .special-img {
+    display: none;
+  }
+  .col-3 medium {
+    display: none;
+  }
+  .special-img {
+    width: 90%;
+  }
+}
+
+medium {
+  color: #555;
+}
+
+.razer-naga-trinity {
+  max-width: 90px;
+}

@@ -1,0 +1,66 @@
+/* Kundvagn */
+
+.kundvagn {
+  margin: 80px auto;
+}
+
+.small-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.kundvagn-img {
+  width: 100px;
+}
+
+.kundvagn-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: white;
+  background-color: black;
+ }
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height:30px;
+  padding: 5px;
+}
+
+td a {
+  color: black;
+  font-size: 12px;
+}
+
+
+table {
+    width: 100%;;
+    border-collapse: collapse;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid black;
+  width: 100%;
+  max-width: 445px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
